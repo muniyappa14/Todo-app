@@ -1,0 +1,10 @@
+package tod.exm.repo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import todo.exm.Todo;
+
+public interface Entryrepo extends MongoRepository<Todo, String> {
+	public static final Todo todo = new Todo();
+}

@@ -1,0 +1,9 @@
+package todo.exm.serv;
+
+import org.springframework.stereotype.Service;
+
+@Service
+
+public class Entryserv {
+
+}

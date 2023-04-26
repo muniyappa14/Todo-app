@@ -1,0 +1,5 @@
+package todo.exm;
+@Entity
+public class Todo {
+
+}
